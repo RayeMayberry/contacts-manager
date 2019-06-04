@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    display: grid;
+    grid-template-rows: min-content auto auto;
+    background-color: lightgrey;
+    width: 80vw;
+    margin: 0 auto;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14pt;
+}
