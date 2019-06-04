@@ -19,11 +19,9 @@ input{
 #city, #state, #zip {
     grid-row: 3;
 }
-#phone{
+#phone, #fax{
     grid-row: 4;
-    grid-column: 1/4;
 }
-#fax{
+#categories_text {
     grid-row: 5;
-    grid-column: 1/4;
 }
