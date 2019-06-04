@@ -7,6 +7,9 @@ import { MenuComponent } from './menu/menu.component';
 import { CompanyLookupComponent } from './company-lookup/company-lookup.component';
 import { HeaderComponent } from './header/header.component';
 import { CompanyInfoComponent } from './company-info/company-info.component';
+import { CreateCategoryComponent } from './create-category/create-category.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { PhoneLookupComponent } from './phone-lookup/phone-lookup.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { CompanyInfoComponent } from './company-info/company-info.component';
     MenuComponent,
     CompanyLookupComponent,
     HeaderComponent,
-    CompanyInfoComponent
+    CompanyInfoComponent,
+    CreateCategoryComponent,
+    ContactsComponent,
+    PhoneLookupComponent
   ],
   imports: [
     BrowserModule,
